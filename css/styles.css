@@ -1,0 +1,51 @@
+body {
+  background: url(../images/404\ Page\ Illustration01.png);
+  background-size: cover;
+  position: relative;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+  margin-bottom: 100px;
+}
+.main p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250px;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: -100px;
+}
+
+.main img {
+  position: absolute;
+  width: 800px;
+  top: 50%;
+}
+
+.main button {
+  position: absolute;
+  top: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px 30px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: none;
+  color: white;
+  background: linear-gradient(to left, #f15d5b, #ff0043);
+  box-shadow: #ff0043 0 3px 0;
+  cursor: pointer;
+}
+
+/* , red 50px, blue 50px */
